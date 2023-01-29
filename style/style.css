@@ -33,7 +33,6 @@ a:hover {
   justify-content: space-between;
 }
 .button {
-  display: block;
   padding: 10px 15px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -131,4 +130,9 @@ a:hover {
 }
 .footer__menu_item {
   padding-right: 15px;
+}
+@media screen and (max-width: 767px) {
+  .front__imageVR {
+    display: none;
+  }
 }
